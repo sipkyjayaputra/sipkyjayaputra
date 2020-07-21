@@ -1,0 +1,20 @@
+#back-1 {
+    background-image: url("../assets/back-welcome.jpg");
+}
+
+.o-85 {
+    opacity: 90%;
+}
+
+#img-profile {
+    border-radius: 50%;
+}
+
+.social-icon {
+    font-size: x-large;
+    color: black;
+    bottom: 0;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
