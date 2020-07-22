@@ -18,3 +18,50 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#portfolio-1 {
+    position: relative;
+    animation-name: portfolio-1;
+    animation-duration: 4s;
+}
+
+#portfolio-2 {
+    position: relative;
+    animation-name: portfolio-1;
+    animation-duration: 6s;
+}
+
+#portfolio-3 {
+    position: relative;
+    animation-name: portfolio-1;
+    animation-duration: 8s;
+}
+
+.certificate-left {
+    position: relative;
+    animation-name: certificate-left;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+.certificate-right {
+    position: relative;
+    animation-name: certificate-right;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes portfolio-1 {
+    0% {left: -1000px; }
+    50% {left: 0px }
+}
+
+@keyframes certificate-left {
+    0% { left: -1000px; }
+    50% { left: 0px; }
+}
+
+@keyframes certificate-right {
+    0% { right: -1000px; }
+    50% { right: 0px; }
+}
